@@ -8,4 +8,4 @@
 5. sass
 6. react-vertical-timeline-component
 7. rc-progress
-
+8. react-icons
