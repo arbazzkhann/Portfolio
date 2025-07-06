@@ -56,7 +56,7 @@ const handleToggleIcon = () => {
         </div>
 
           {/* Navbar list */}
-          <ul className='navbar__container__menu'>
+          <ul className={`navbar__container__menu ${toggleIcon ? 'active' : ''}`}>
             {
               data.map((item, key) => (
                 <li key={key} className='navbar__container__menu__item'>
