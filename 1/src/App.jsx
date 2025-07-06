@@ -11,12 +11,18 @@ import Portfolio from '../src/Containers/Portfolio/index'
 import Resume from '../src/Containers/Resume/index'
 import Skills from '../src/Containers/Skills/index'
 
+//import Components
+import Navbar from './Components/Navbar/index';
+
 
 function App() {
 
   return (
     <>
-      
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Main page content */}
       <Routes>
         <Route index element={<Home />} />
         <Route path='/about' element={<About />}/>
